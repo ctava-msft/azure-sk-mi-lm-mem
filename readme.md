@@ -8,12 +8,16 @@ Deploy infra using the following commands:
 azd auth login
 azd up
 ```
+
 Copy sample.env to .env.
-Put in the
-AZURE_OPENAI_ENDPOINT
-MODEL_DEPLOYMENT_NAME
-MODEL_ID
-MODEL_VERSION
+Fill in the following
+- AZURE_OPENAI_ENDPOINT=
+- MODEL_CHAT_DEPLOYMENT_NAME=
+- MODEL_CHAT_ID=
+- MODEL_CHAT_VERSION=
+- MODEL_EMBEDDINGS_DEPLOYMENT_NAME=
+- MODEL_EMBEDDINGS_ID=
+- MODEL_EMBEDDINGS_VERSION=
 
 Run the project using the following commands:
 
